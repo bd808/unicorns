@@ -7,6 +7,7 @@
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <link rel="stylesheet" href="http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css">
+    <link rel="stylesheet" href="/~bender/unicorns/css/site.css">
   </head>
   <body>
     <?php include "header.php";?>
