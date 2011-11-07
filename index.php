@@ -14,7 +14,13 @@
     <br/><br/><br/>
     <div class="container">
       <h1>Unicorns are awesome!</h1>
-      <p><img src="img/0001.jpg"/></p>
+      <p><img src="img/0001.jpg"/>
+      Unicorns are the most amazing mythical creatures ever imagined. People all
+      over the world love unicorns and want to know everything there is to know
+      about them. Our image will show you how beautiful unicorns look and the
+      other pages will tell you what they eat, how they reproduce, and many other
+      pieces of interesting information.
+      </p>
     </div>
     <?php include "footer.php";?>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
