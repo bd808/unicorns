@@ -7,6 +7,7 @@
     <?php include "../header.php";?>
     <br/><br/><br/>
     <div class="container">
+      <h1>Coming Soon</h1>
     </div>
     <?php include "../footer.php";?>
   </body>
