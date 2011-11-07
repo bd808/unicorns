@@ -11,6 +11,7 @@
         <li><a href="<?php echo $BASEURL;?>/gallery/">Image Gallery</a></li>
         <li><a href="<?php echo $BASEURL;?>/anatomy/">Anatomy</a></li>
         <li><a href="<?php echo $BASEURL;?>/diet/">Diet</a></li>
+        <li><a href="<?php echo $BASEURL;?>/facts/">Facts</a></li>
       </ul>
     </div>
   </div><!-- /topbar-inner -->
