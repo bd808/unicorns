@@ -85,7 +85,7 @@ require_once "{$LIBROOT}/ti.php";
     <?php endblock('content'); ?></div>
     <footer class="footer">
       <div class="container">
-        <p class="pull-right">this is the footer</p>
+        <p class="pull-right">Part of <a href="/">The Scrum Zoo</a></p>
       </div>
     </footer>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
