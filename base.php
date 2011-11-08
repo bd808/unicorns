@@ -15,7 +15,7 @@ $URI = $_SERVER['PHP_SELF'];
 
 // look for first occurance of "unicorns"
 $uIdx = strpos($URI, '/unicorns/');
-if ($uIdx >= 0) {
+if (false !== $uIdx) {
   $BASE = substr($URI, 0, $uIdx) . '/unicorns';
 } else {
   $BASE = '';
