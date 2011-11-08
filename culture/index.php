@@ -21,7 +21,7 @@
       <p> 
       Brought to life by the luminary voice talents of Jeff Bridges, Mia Farrow, Angela Lansbury and Rene Auberjonois (STAR TREK: DEEP SPACE NINE, "Boston Legal"), this animated treasure is the story of a lonely unicorn who sets out on an extraordinary quest to find her lost brothers and sisters. Along the way she meets a colorful cast of characters, including a bumbling wizard who magically transforms her into a beautiful damsel. When a handsome prince falls in love with her, he challenges the evil foe who holds her captive. But the task proves harder than imagined, and the unicorn soon discovers that real magic comes from believing in the impossible. Featuring songs performed by America.
       </p>
-      <a href="<b>http://www.amazon.com/Last-Unicorn-Jeff-Bridges/dp/B000KJU128/ref=sr_1_1?s=movies-tv&ie=UTF8&qid=1320700801&sr=1-1</b>">The Last Unicorn</a>
+      <a href="http://www.amazon.com/Last-Unicorn-Jeff-Bridges/dp/B000KJU128/ref=sr_1_1?s=movies-tv&ie=UTF8&qid=1320700801&sr=1-1">The Last Unicorn</a>
       </p>
       <h3>Articles</h3>
       <a href="http://www.nytimes.com/1998/05/31/travel/the-unicorn-at-the-metropolitan.html?src=pm">The unicorn at the Metropolitan</a> - New York Times
