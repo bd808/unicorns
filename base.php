@@ -76,6 +76,7 @@ require_once "{$LIBROOT}/ti.php";
                 <a href="<?php echo $BASE, $uri;?>/"><?php echo $name; ?></a>
               </li>
   <?php } ?>
+              <li><a href="/cheetah/email.php">Email</a></li>
             </ul>
           </div>
         </div><!-- /topbar-inner -->
