@@ -1,7 +1,7 @@
 <?php require_once '../base.php'; ?>
 <?php startblock('title'); ?>Diet<?php endblock('title'); ?>
 <?php startblock('content'); ?>
-      <h1><marquee>Diet</marquee></h1>
+      <h1>Diet</h1>
       <p>
       What do unicorns eat? It depends on who you ask. Unicorns have a widely varied diet, some of which makes them seem very civilized, and other food items which make them seem barbaric. 
       </p>

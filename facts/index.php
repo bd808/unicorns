@@ -1,7 +1,7 @@
 <?php require_once '../base.php'; ?>
 <?php startblock('title'); ?>Facts<?php endblock('title'); ?>
 <?php startblock('content'); ?>
-      <h1><marquee>Interesting Facts</marquee></h1>
+      <h1>Interesting Facts</h1>
       <img src="../img/0001.jpg"/>
       <p>Mystical powers have always been associated with the unicorn. From its amazing strength – Jewish legend says they can kill an elephant – to its ability to tell truth from falsehood – confronted by a liar, a unicorn will pierce a liar through the heart – the unicorn occupies a definitive place in human history and culture. For centuries, unicorn horns were sold for their medicinal properties. Although there were many ways to test the horn's authenticity, most horns were simply goat or cow horns, with a few coming from exotic creatures like the narwhale. To own a complete unicorn horn was to demonstrate your rank, wealth and power. Queen Elizabeth I possessed one and the throne of Denmark was supposed to be made of them.
       <p>Regardless of their highly questionable existence, unicorns continue to be popular. Their place in human culture is equivalent to that of dragons and faeries. They are depicted in our art and architecture and are frequently mentioned in songs, poetry, histories and stories. If they once existed, evidence now points to their extinction. If they never existed, than human imagination has truly created a marvelous creature.
