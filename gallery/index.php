@@ -1,14 +1,5 @@
-<html>
-  <head>
-    <link rel="stylesheet" href="http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css">
-    <link rel="stylesheet" href="/~bender/unicorns/css/site.css">
-  </head>
-  <body>
-    <?php include "../header.php";?>
-    <br/><br/><br/>
-    <div class="container">
+<?php require_once '../base.php'; ?>
+<?php startblock('title'); ?>Gallery<?php endblock('title'); ?>
+<?php startblock('content'); ?>
       <h1>Coming Soon</h1>
-    </div>
-    <?php include "../footer.php";?>
-  </body>
-</html>
+<?php endblock('content'); ?>

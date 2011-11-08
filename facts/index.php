@@ -1,12 +1,6 @@
-<html>
-  <head>
-    <link rel="stylesheet" href="http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css">
-    <link rel="stylesheet" href="/~bender/unicorns/css/site.css">
-  </head>
-  <body>
-    <?php include "../header.php";?>
-    <br/><br/><br/>
-    <div class="container">
+<?php require_once '../base.php'; ?>
+<?php startblock('title'); ?>Facts<?php endblock('title'); ?>
+<?php startblock('content'); ?>
       <h1>Interesting Facts</h1>
       <img src="../img/0001.jpg"/>
       <p>Mystical powers have always been associated with the unicorn. From its amazing strength – Jewish legend says they can kill an elephant – to its ability to tell truth from falsehood – confronted by a liar, a unicorn will pierce a liar through the heart – the unicorn occupies a definitive place in human history and culture. For centuries, unicorn horns were sold for their medicinal properties. Although there were many ways to test the horn's authenticity, most horns were simply goat or cow horns, with a few coming from exotic creatures like the narwhale. To own a complete unicorn horn was to demonstrate your rank, wealth and power. Queen Elizabeth I possessed one and the throne of Denmark was supposed to be made of them.
@@ -27,7 +21,4 @@
       <li>The blood of a unicorn cures Hepatitus C, but totally makes your nipples fall off.</li>
       <li>Legend states that Noah excluded unicorns from the ark, thereby making them extinct today.</li>
 
-    </div>
-    <?php include "../footer.php";?>
-  </body>
-</html>
+<?php endblock('content'); ?>

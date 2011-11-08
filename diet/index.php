@@ -1,12 +1,6 @@
-<html>
-  <head>
-    <link rel="stylesheet" href="http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css">
-    <link rel="stylesheet" href="/~bender/unicorns/css/site.css">
-  </head>
-  <body>
-    <?php include "../header.php";?>
-    <br/><br/><br/>
-    <div class="container">
+<?php require_once '../base.php'; ?>
+<?php startblock('title'); ?>Diet<?php endblock('title'); ?>
+<?php startblock('content'); ?>
       <h1>Diet</h1>
       <p>
       What do unicorns eat? It depends on who you ask. Unicorns have a widely varied diet, some of which makes them seem very civilized, and other food items which make them seem barbaric. 
@@ -23,7 +17,4 @@
       <p>
       That makes unicorns seem a lot less appealing and parents would be unwise to allow their children to be in the presence of unicorns without proper supervision...that is unless you are planning on their untimely disappearance.
       </p>
-    </div>
-    <?php include "../footer.php";?>
-  </body>
-</html>
+<?php endblock('content'); ?>
