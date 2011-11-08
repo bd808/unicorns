@@ -12,6 +12,7 @@ $LIBROOT = "{$WEBROOT}/lib";
 
 // figure out base url of the site
 $URI = $_SERVER['PHP_SELF'];
+
 // look for first occurance of "unicorns"
 $uIdx = strpos($URI, '/unicorns/');
 if ($uIdx >= 0) {
@@ -20,6 +21,9 @@ if ($uIdx >= 0) {
   $BASE = '';
 }
 
+// navigation generator:
+// - key : uri from root of site to section
+// - value : Name of section
 $sections = array(
     '' => 'Home',
     '/gallery' => 'Gallery',
@@ -28,6 +32,8 @@ $sections = array(
     '/facts' => 'Facts',
     '/reproduction' => 'Reproduction',
   );
+
+// figure out what section the currnet page belongs to
 list($curr_sect, $junk) = explode('/', substr($URI, strlen($BASE) + 1), 2);
 if ('index.php' == $curr_sect) {
   $curr_sect = '';
@@ -42,43 +48,36 @@ require_once "{$LIBROOT}/ti.php";
 <html>
   <head>
     <meta charset="utf-8">
-    <title><?php startblock('title'); echo ucwords($curr_sect); endblock('title'); ?> - UNICORNS!!</title>
+    <title><?php startblock('title-full');
+      startblock('title');
+      echo @ucwords($sections[$curr_sect]);
+      endblock('title'); ?> - UNICORNS!!<?php endblock('title-full');?></title>
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <link rel="stylesheet" href="<?php echo $BASE;?>/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo $BASE;?>/css/site.css">
+    <?php startblock('html-head'); endblock('html-head'); ?>
   </head>
   <body>
     <header>
-    <div class="topbar" data-dropdown="dropdown" >
-      <div class="topbar-inner">
-        <div class="container">
-          <h3><a href="<?php echo $BASE;?>/">Unicorns!</a></h3>
-          <ul class="nav">
-<?php foreach ($sections as $uri => $name) { ?>
-            <li <?php if ($uri == $curr_sect) echo 'class="active"';?>>
-              <a href="<?php echo $BASE, $uri;?>/"><?php echo $name; ?></a>
-            </li>
-<?php } ?>
-          </ul>
-        </div>
-      </div><!-- /topbar-inner -->
-    </div><!-- /topbar -->
-    <br><br><br>
+      <div class="topbar">
+        <div class="topbar-inner">
+          <div class="container">
+            <h3><a href="<?php echo $BASE;?>/">Unicorns!</a></h3>
+            <ul class="nav">
+  <?php foreach ($sections as $uri => $name) { ?>
+              <li <?php if ($uri == $curr_sect) echo 'class="active"';?>>
+                <a href="<?php echo $BASE, $uri;?>/"><?php echo $name; ?></a>
+              </li>
+  <?php } ?>
+            </ul>
+          </div>
+        </div><!-- /topbar-inner -->
+      </div><!-- /topbar -->
     </header>
-    <div class="container">
-      <?php startblock('content'); ?>
-<pre><code><?php
-/*
-echo "URI = {$URI}\n";
-echo "WEBROOT = {$WEBROOT}\n";
-echo "BASE = {$BASE}\n";
-var_dump($_SERVER);
- */
-      ?></code></pre>
-      <?php endblock('content'); ?>
-    </div>
+    <div id="content" class="container"><?php startblock('content'); ?>
+    <?php endblock('content'); ?></div>
     <footer class="footer">
       <div class="container">
         <p class="pull-right">this is the footer</p>
@@ -86,5 +85,6 @@ var_dump($_SERVER);
     </footer>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
     <script src="<?php echo $BASE;?>/js/application.js"></script>
+    <?php startblock('body-end'); endblock('body-end'); ?>
   </body>
 </html>
