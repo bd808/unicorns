@@ -31,6 +31,7 @@ $sections = array(
     '/diet' => 'Diet',
     '/facts' => 'Facts',
     '/reproduction' => 'Reproduction',
+    '/culture' => 'Culture',
   );
 
 // figure out what section the currnet page belongs to

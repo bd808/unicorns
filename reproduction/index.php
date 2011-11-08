@@ -1,7 +1,7 @@
 <?php require_once '../base.php'; ?>
 <?php startblock('title'); ?>Reproduction<?php endblock('title'); ?>
 <?php startblock('content'); ?>
-<h1><blink>Hot</blink> Unicorn Action</h1>
+<h1><marquee>Hot Unicorn Action</marquee></h1>
       <p>
       There are many fanciful theories about how unicorns mate but in fact, they mate in the same manner as horses and gazelles. However, unicorns have a rather long gestation period compared to those other creatures. A unicorn doe will carry a foal for about 1230 days or over three years. The mother always gives birth at daybreak concealed in a heavily wooded area. The father stands by to guard the doe during this extremely vulnerable time.  Unicorns typically have one off spring at a time.
       </p>
