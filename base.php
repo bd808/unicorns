@@ -31,6 +31,9 @@ $sections = array(
     '/diet' => 'Diet',
     '/facts' => 'Facts',
     '/reproduction' => 'Reproduction',
+    '/habitat' => 'Habitat',
+    '/behavior' => 'Behavior',
+    '/communication' => 'Communication',
     '/culture' => 'Culture',
   );
 
