@@ -17,6 +17,7 @@
     <dl>
       <dt>Scientific name</dt><dd><em>unicornus awesomeus</em></dd>
     </dl>
+    <p><a class="btn primary" href="facts/">Learn More »</a></p>
   </div>
   <div class="span10">
     <p>The unicorn is described variously as resembling a small goat, an ass, or a horse. It has a single horn in the middle of its head; the horn is usually depicted as straight and long, and often with a spiral groove running up it. The unicorn is fierce, strong and swift, and no hunter can catch it. To tame the beast so it can be captured, a virgin girl is placed in its path. The unicorn, seeing the maiden, comes to her and puts its head in her lap and falls asleep. The hunters can then easily capture or kill it. Some accounts say the girl must bare her breast and allow the unicorn to suckle. If the unicorn is captured, it is taken to the king's palace. </p>
