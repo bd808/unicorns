@@ -76,7 +76,6 @@ require_once "{$LIBROOT}/ti.php";
                 <a href="<?php echo $BASE, $uri;?>/"><?php echo $name; ?></a>
               </li>
   <?php } ?>
-              <li><a href="/cheetah/email.php">Email</a></li>
             </ul>
           </div>
         </div><!-- /topbar-inner -->
@@ -86,7 +85,7 @@ require_once "{$LIBROOT}/ti.php";
     <?php endblock('content'); ?></div>
     <footer class="footer">
       <div class="container">
-        <p class="pull-right">Part of <a href="/">The Scrum Zoo</a></p>
+        <p class="pull-right">Part of <strong>The Scrum Zoo</strong></p>
       </div>
     </footer>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
